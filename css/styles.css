@@ -95,15 +95,36 @@ ul>li {
   padding-left: 20px;
   background-color: #000;
   color: #fff;
-  border: 1px dashed #fff;
+  border: 5px dashed #fff;
 }
 
 .stats__population {
   padding: 20px 0;
 }
 
+.content__main-game {
+  width: 70%;
+  border: 5px dashed #fff;
+  box-sizing: border-box;
+}
+
+.main-game__story {
+  padding: 20px;
+}
+
+.main-game__story::first-letter {
+  font-size: 36px;
+  font-family: Times New Roman;
+}
+
+.choise {
+  padding: 10px 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
 .game__main {
-  border: 1px dashed #fff;
+  border: 5px dashed #fff;
   width: 70%;
   box-sizing: border-box;
   padding-left: 20px;
